@@ -1,2 +1,6 @@
 # hello-world
-First repository
+
+Hello!
+
+Welcome to Sabrina's Portfolio.
+I love sushi.
