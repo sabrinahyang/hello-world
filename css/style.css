@@ -1,4 +1,6 @@
-
+head {
+    text-align:center;
+}
 
 .navhome{
   position: absolute;
@@ -7,9 +9,9 @@
 
 .title h1 {
   z-index: 100;
-  position: relative;
+  position: absolute;
   left: 100px;
-  top: -180px;
+  bottom: 450px;
   color: #ffb3c6;
   font-size: 35px;
   font-family: 'Secular One', sans-serif;
@@ -18,7 +20,7 @@
 .profile-pic {
   position: relative;
   right: -440px;
-  top: -400px;
+  top: -350px;
 }
 
 ul {
@@ -27,29 +29,24 @@ ul {
   margin: 140px;
   display: block;
   position: relative;
-  bottom: -370px;
 }
 
-ul li a{
+ul li {
   color: #4183C4;
   font-size: 20px;
   font-weight: bold;
   background-color: #ffdcdc;
   text-align: center;
-  display: block;
+  display: inline-block;
   height: 35px;
   width: 150px; 
   border-radius: 5px;
 }
 
-ul li a:hover {
-  background-color: #87CEFA;
-}
-
 h2 {
   max-width: 800px;
   position: relative;
-  right: -120px;
+  right: -80px;
 }
 
 h2 .aboutme {
