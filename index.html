@@ -1,47 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<title>First Web Page</title>
+    <title>Scrolling Nav</title>
 
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-	<div class="img-container">	
-		<div class="title">
-			<h1>I am an aspiring UX designer 
-			<br> & Philosophy student at Colby College</h1>
-		</div>
-		<div class="profile-pic">
-			<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/1146527_692168694139578_846094350_n.jpg?oh=052cc828a80cc492dad395a33bb35f58&oe=5832A904" width="580px"/>
-		</div>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-		<nav class="nav-home">
-			<ul>
-				<li><a href="index.html">About me</a></li>
-				<br>
-				<br>
-				<li><a href="contactme.html">Contact</a></li>
-				<br>
-				<br>
-				<li><a href="bucketlist.html">My Bucket List</a></li>
-			</ul>
-		</nav>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-	<section class="presentation">
-		<h2><p>Hello I am Sabrina. As a senior at Colby College studying Philosophy & Mathematics, I have spent my undergraduate time training not only my critical thinking skills in exploring the roots of social phenomena but also my ability to synthesize and bring order in producing helpful thinking. With a longing for precision and insight into how things and people work.</p>
-		<p>I am fascinated with UX/UI design because I find great power in design thinking to product the best solution in human-based problems.</p>
-		<p>I am also interested in product management, which allows me to apply my visual, technical,and people skills.</p>
-		<p>Currently, I am exercising my design thinking muscle at Startup Institute, NY.</p>
-	</section>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">楊慧珏</a>
+            </div>
 
-	</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Sabrina H. Yang</h1>
+                    <p>is a Philosophy & Mathematics student pursuing a career in UX design</p>
+                    <p>Web design student at Startup Institute</p>
+                    <a class="btn btn-default page-scroll" href="#about">About me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Services Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>
