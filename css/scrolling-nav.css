@@ -45,17 +45,24 @@ of those sections to manage the look and feel of the site. */
     background: #FFdcdc;
 }
 
-.services-section {
+.portfolio-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #ffffcc;
+}
+
+.funfacts-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #bdedff;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #ccffe6;
 }
 
