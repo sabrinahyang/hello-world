@@ -33,7 +33,6 @@ h1 {
 	font-size: 50px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	color: grey;
 }
 
 
@@ -49,9 +48,10 @@ h2 {
 }
 
 .text-intro {
-	margin-bottom: 20px;
+	margin: 0 150px 20px 150px;
 	text-align: justify;
 	font-size: 16px;
+	font-family: 'Noto Serif', serif;
 }
 
 hr p {
