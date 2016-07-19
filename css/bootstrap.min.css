@@ -48,8 +48,14 @@ h2 {
 }
 
 .text-intro {
-	margin: 0 150px 20px 150px;
+	margin: 0 120px 0px 120px;
 	text-align: justify;
+	font-size: 16px;
+	font-family: 'Noto Serif', serif;
+}
+
+.text-contact {
+	text-align: center;
 	font-size: 16px;
 	font-family: 'Noto Serif', serif;
 }
@@ -58,12 +64,6 @@ hr p {
 	font-size: 20px;
 }
 
-
-.email-font-color {
-	color: green;
-	font-weight: bold;
-	font-size: 20px;
-}
 
 .btn-default:hover {
 	background-color: orange;
