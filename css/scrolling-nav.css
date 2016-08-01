@@ -31,8 +31,11 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
+.navbar-default {
+    background-color: transparent;
+}
+
 .header-background {
-   background: url(http://www.intrawallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_AgLbDjN.jpg) no-repeat center center;
    background-size: cover;
    height: 800px;
 }
@@ -52,7 +55,6 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #FFdcdc;
 }
 
 .portfolio-section {
@@ -60,13 +62,6 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: white;
-}
-
-.funfacts-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #bdedff;
 }
 
 .contact-section {
