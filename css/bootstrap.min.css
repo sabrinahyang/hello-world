@@ -28,12 +28,28 @@ img.headshot1 {
 	margin: auto;
 }
 
+.header-background {
+	background-color: #292929;
+}
+
+.intro-line {
+	margin-top: 20px;
+	margin-bottom: 120px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #f7484e;
+}
 
 h1 {
-	font-size: 50px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
+	font-size: 90px;
+	font-family: 'Berkshire Swash', cursive;
+	color: white;
 }
+
+
+
+
 
 
 h2 {
