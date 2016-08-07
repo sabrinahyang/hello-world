@@ -667,6 +667,12 @@ header nav .menu li ul li:last-child a {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
+
+	background: #CCEAE2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #CCEAE2,  #ffe6ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #CCEAE2,  #ffe6ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #CCEAE2,  #ffe6ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #CCEAE2,  #ffe6ff); /* Standard syntax (must be last) */
 }
 
 .wrapper .home-photography .title-holder {
